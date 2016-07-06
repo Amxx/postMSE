@@ -1,0 +1,106 @@
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+{
+	font-family: Open Sans, sans-serif;
+}
+
+img.avatar
+{
+	width: 50px;
+}
+
+/* OVERIDE */
+nav.navbar
+{
+	background-color: rgba(0,0,0,0.8);
+}
+.navbar .navbar-nav > li > a
+{
+	color:         #ccc;
+}
+.navbar .navbar-nav > li > a.compact
+{
+	padding-left:  0;
+	padding-right: 0;
+}
+
+.index-page .header-filter:after {
+  background: rgba(0, 0, 0, 0.64);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
+}
+#particles-header-wrapper
+{
+	position: absolute;
+	top:      0;
+	left:     0;
+	height:   100%;
+	width:    100%;
+}
+
+/*****************************************************************************
+ *                                B l o c k s                                *
+ *****************************************************************************/
+.packery .block
+{
+	margin:									5px;
+	padding:								3px 10px;
+	background:							#FFFFFF;
+}
+.packery .block .block-body
+{
+	padding: 6px;
+}
+.packery .block .block-body.hidden
+{
+	display: none;
+}
+.no-padding
+{
+	padding: 0;
+}
+
+.row
+{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+.row > [class*='col-']
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.hidden
+{
+	display: none;
+}
+.vcenter
+{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+
+.publication-title-short
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+
+.parallax-chicago
+{
+	/* transform: translateZ(-1px) scale(2); */
+	height: 300px;
+	background-image: url("../img/chicago.jpg");
+  background-position: center center;
+  background-size: cover;
+}
