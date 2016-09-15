@@ -103,47 +103,41 @@ nav.navbar
 
 
 
-
-
-
-
-
-/*
-.section-header :first-of-type,
-.section-header :first-of-type > *
-{
-	border-radius: 6px 6px 0 0;
-	color: #F00;
-}
-*/
 .main-raised
 {
-	overflow: hidden;
+	overflow:         hidden;
 }
 .section-header
 {
 	width:            100%;
 	height:           192px;
-	/* clip:             rect(0, 100px, 200px, 0); */
 	overflow:         hidden;
 }
 .section-header > *
 {
+	position:         absolute;
 	width:            100%;
+	height:           192px;
 	line-height:      192px;
 	margin:           0;
 }
 .section-header > h1
 {
 	z-index:          10000;
-	position:         absolute;
 	text-align:       center;
 	/* font-size:        8em; */
 }
-.section-header > img
+.section-header .clipper
 {
-	/* position:         fixed; */
-	/* top:              0; */
-	/* left:             0; */
+	clip:             rect(0, auto, auto, 0);
+}
+.section-header .clipper > img
+{
+	position:         fixed;
+	left:             50%;
+	top:              50%;
+	transform:        translate(-50%, -50%);
 	filter:           opacity(50%);
+	width:            100%;
+	height:           auto;
 }
