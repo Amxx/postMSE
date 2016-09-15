@@ -105,39 +105,23 @@ nav.navbar
 
 .main-raised
 {
-	overflow:         hidden;
+	overflow:              hidden;
 }
-.section-header
+.section header
 {
-	width:            100%;
-	height:           192px;
-	overflow:         hidden;
+	width:                 100%;
+	height:                192px;
+	background-attachment: fixed;
+  background-image:      url('../img/background.jpg');
+  background-position:   center;
+  background-repeat:     no-repeat;
+  background-size:       100% auto;
 }
-.section-header > *
+.section header h1
 {
-	position:         absolute;
-	width:            100%;
-	height:           192px;
-	line-height:      192px;
-	margin:           0;
-}
-.section-header > h1
-{
-	z-index:          10000;
-	text-align:       center;
-	/* font-size:        8em; */
-}
-.section-header .clipper
-{
-	clip:             rect(0, auto, auto, 0);
-}
-.section-header .clipper > img
-{
-	position:         fixed;
-	left:             50%;
-	top:              50%;
-	transform:        translate(-50%, -50%);
-	filter:           opacity(50%);
-	width:            100%;
-	height:           auto;
+	z-index:               10000;
+	margin:                0;
+	line-height:           192px;
+	text-align:            center;
+	background-color:      rgba(255,255,255,0.5);
 }

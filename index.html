@@ -101,18 +101,11 @@
 			#                                                                       #
 			#########################################################################
 			-->
-			<div id="resume" class="section-header">
-				<h1>Resume</h1>
-				<div class="clipper"><img src="assets/img/01-resume.jpg"></div>
-			</div>
-
-			<div class="section">
+			<div id="resume" class="section">
+				<header style="background-image: url('assets/img/01-resume.jpg')">
+					<h1>Resume</h1>
+				</header>
 				<div class="container tim-container">
-					<!--
-					<div class="title">
-						<h1>Resume</h1>
-					</div>
-					-->
 					<ul class="timeline">
 						<li>
 							<div class="timeline-badge info"><i class="glyphicon glyphicon-education"></i></div>
@@ -261,13 +254,10 @@
 			#                                                                       #
 			#########################################################################
 			-->
-
-			<div id="code" class="section-header">
-				<h1>Code</h1>
-				<div class="clipper"><img src="assets/img/02-code.jpg"></div>
-			</div>
-
-			<div class="section">
+			<div id="code" class="section">
+				<header style="background-image: url('assets/img/02-code.jpg')">
+					<h1>Code</h1>
+				</header>
 				<div class="container tim-container">
 					<div class="row packery">
 						<div class="col-md-4 no-padding">
@@ -468,39 +458,25 @@
 			#                                                                       #
 			#########################################################################
 			-->
-			<div id="work" class="section-header">
-				<h1>Work</h1>
-				<div class="clipper"><img src="assets/img/03-work.jpg"></div>
-			</div>
-
-			<div class="section">
+			<div id="work" class="section">
+				<header style="background-image: url('assets/img/03-work.jpg')">
+					<h1>Work</h1>
+				</header>
 				<div class="container tim-container">
-					<!--
-					<div class="title">
-						<h2>Work</h2>
-					</div>
-					-->
 				</div>
 			</div>
 			<!--
 			#########################################################################
 			#                                                                       #
-			#                         P u b l i c a t i o n                         #
+			#                        P u b l i c a t i o n s                        #
 			#                                                                       #
 			#########################################################################
 			-->
-			<div id="publications" class="section-header">
-				<h1>Publications</h1>
-				<div class="clipper"><img src="assets/img/04-publications.jpg"></div>
-			</div>
-
-			<div class="section">
+			<div id="publications" class="section">
+				<header style="background-image: url('assets/img/04-publications.jpg')">
+					<h1>Publications</h1>
+				</header>
 				<div class="container tim-container">
-					<!--
-					<div class="title">
-						<h2>Publication</h2>
-					</div>
-					-->
 					<div class="card card-nav-tabs">
 						<div class="header header-default">
 							<div class="nav-tabs-navigation">
@@ -541,7 +517,6 @@
 										</div>
 									</div>
 									<!-- END -->
-
 
 									<!-- BEGIN: Self-adaptive density estimation of particle data. -->
 									<div class="publication panel row">
@@ -629,18 +604,12 @@
 			#                                                                       #
 			#########################################################################
 			-->
-			<div id="teaching" class="section-header">
-				<h1>Teaching</h1>
-				<div class="clipper"><img src="assets/img/05-teaching.jpg"></div>
-			</div>
+			<div id="teaching" class="section">
+				<header style="background-image: url('assets/img/05-teaching.jpg')">
+					<h1>Teaching</h1>
+				</header>
 
-			<div class="section">
 				<div class="container tim-container">
-					<!--
-					<div class="title">
-						<h2>Teaching</h2>
-					</div>
-					-->
 				</div>
 			</div>
 			<!--
@@ -650,18 +619,12 @@
 			#                                                                       #
 			#########################################################################
 			-->
-			<div id="activism" class="section-header">
-				<h1>Activism</h1>
-				<div class="clipper"><img src="assets/img/06-activism.jpg"></div>
-			</div>
+			<div id="activism" class="section">
+				<header style="background-image: url('assets/img/06-activism.jpg')">
+					<h1>Activism</h1>
+				</header>
 
-			<div class="section">
 				<div class="container tim-container">
-					<!--
-					<div class="title">
-						<h2>Activist</h2>
-					</div>
-					-->
 				</div>
 			</div>
 			<!--
@@ -671,18 +634,12 @@
 			#                                                                       #
 			#########################################################################
 			-->
-			<div id="contact" class="section-header">
-				<h1>Contact</h1>
-				<div class="clipper"><img src="assets/img/07-contact.jpg"></div>
-			</div>
+			<div id="contact" class="section section-full-screen" style="display: flex; flex-direction: column;">
+				<header style="background-image: url('assets/img/07-contact.jpg')">
+					<h1>Contact</h1>
+				</header>
 
-			<div class="section section-full-screen" style="display: flex; flex-direction: column;">
 				<div class="container tim-container" style="display: flex; flex-direction: column; flex-grow: 1;">
-					<!--
-					<div class="title">
-						<h2>Contact</h2>
-					</div>
-					-->
 						<div class="card card-nav-tabs">
 							<div class="header header-danger">
 								<div class="nav-tabs-navigation">
@@ -785,8 +742,6 @@
 
 <script type="text/javascript">
 	$(function(){
-		// the body of this function is in assets/material-kit.js
-		// materialKit.initSliders();
 		$(window).on("scroll", materialKit.checkScrollForTransparentNavbar);
 		window_width = $(window).width();
 		if (window_width >= 768){
@@ -938,7 +893,7 @@
 			if      (removeDiacritics($(this).find('.publication-title'  ).text()).indexOf(value) != -1) $(this).show();
 			else if (removeDiacritics($(this).find('.publication-authors').text()).indexOf(value) != -1) $(this).show();
 			else if (removeDiacritics($(this).find('.publication-ref'    ).text()).indexOf(value) != -1) $(this).show();
-			else                                                                                                       $(this).hide();
+			else                                                                                         $(this).hide();
 		});
 	}
 	function modal_details(el)
