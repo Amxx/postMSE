@@ -1,111 +1,53 @@
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
-	font-family: Open Sans, sans-serif;
+	font-family:           Open Sans, sans-serif;
 }
 
 img.avatar
 {
-	width: 50px;
+	width:                 50px;
 }
 
 /* OVERIDE */
 nav.navbar
 {
-	background-color: rgba(0,0,0,0.8);
+	background-color:      rgba(0,0,0,0.8);
 }
 .navbar .navbar-nav > li > a
 {
-	color:         #ccc;
+	color:                 #ccc;
 }
 .navbar .navbar-nav > li > a.compact
 {
-	padding-left:  0;
-	padding-right: 0;
+	padding-left:          0;
+	padding-right:         0;
 }
-
 .index-page .header-filter:after {
-  background: rgba(0, 0, 0, 0.64);
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
-  background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
-  background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background:            rgba(0, 0, 0, 0.64);
+  background:            linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background:            -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
+  background:            -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.45) 100%);
 }
 #particles-header-wrapper
 {
-	position: absolute;
-	top:      0;
-	left:     0;
-	height:   100%;
-	width:    100%;
+	position:              absolute;
+	top:                   0;
+	left:                  0;
+	height:                100%;
+	width:                 100%;
 }
 
 /*****************************************************************************
- *                                B l o c k s                                *
+ *                        S e c t i o n   H e a d e r                        *
  *****************************************************************************/
-.packery .block
-{
-	margin:									5px;
-	padding:								3px 10px;
-	background:							#FFFFFF;
-}
-.packery .block .block-body
-{
-	padding: 6px;
-}
-.packery .block .block-body.hidden
-{
-	display: none;
-}
-.no-padding
-{
-	padding: 0;
-}
-
-.row
-{
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-wrap: wrap;
-}
-.row > [class*='col-']
-{
-	display: flex;
-	flex-direction: column;
-}
-
-.hidden
-{
-	display: none;
-}
-.vcenter
-{
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-
-
-
-.publication-title-short
-{
-	text-overflow: ellipsis;
-	overflow: hidden;
-	white-space: nowrap;
-}
-
-
-
-
-
-
-
-
-
-
 .main-raised
 {
 	overflow:              hidden;
+}
+.section
+{
+	/* padding: 30px 0; */
+	padding-top:           0;
 }
 .section header
 {
@@ -115,13 +57,80 @@ nav.navbar
   background-image:      url('../img/background.jpg');
   background-position:   center;
   background-repeat:     no-repeat;
-  background-size:       100% auto;
+  background-size:       cover;
 }
 .section header h1
 {
-	z-index:               10000;
 	margin:                0;
 	line-height:           192px;
 	text-align:            center;
 	background-color:      rgba(255,255,255,0.5);
 }
+
+/*****************************************************************************
+ *                                B l o c k s                                *
+ *****************************************************************************/
+.packery .block
+{
+	margin:                5px;
+	padding:               3px 10px;
+	background:            #FFFFFF;
+}
+.packery .block-body
+{
+	padding:               6px;
+}
+.packery .archived .block-body
+{
+	display:               none;
+}
+.packery .btn-group-justified a.btn
+{
+	text-overflow:         ellipsis;
+	overflow:              hidden;
+	white-space:           nowrap;
+}
+.packery .block .publication
+{
+	margin:                10px 0px;
+	border:                1px solid rgba(0,0,0,0.12);
+	box-shadow:            none;
+}
+.no-padding
+{
+	padding:               0;
+}
+.row
+{
+	display:               -webkit-box;
+	display:               -webkit-flex;
+	display:               -ms-flexbox;
+	display:               flex;
+	flex-wrap:             wrap;
+}
+.row > [class*='col-']
+{
+	display:               flex;
+	flex-direction:        column;
+}
+.hidden
+{
+	display:               none;
+}
+.vcenter
+{
+	margin-top:            auto;
+	margin-bottom:         auto;
+}
+
+/*****************************************************************************
+ *                          P u b l i c a t i o n s                          *
+ *****************************************************************************/
+.publication-title-short
+{
+	text-overflow:         ellipsis;
+	overflow:              hidden;
+	white-space:           nowrap;
+	text-align:            center;
+}
+

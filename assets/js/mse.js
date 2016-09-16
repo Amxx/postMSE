@@ -108,8 +108,18 @@ MSE_JPS.client = MSE_JPS.client || {};
 	// };
 	this.toggleBlock = function(element)
 	{
-		$(element).closest('.block').find('.block-body').toggleClass('hidden');
+		$(element).closest('article').toggleClass('archived');
+		this.reactBlock($(element).closest('article'));
 		$(element).closest('.packery').packery();
+	}
+	this.reactBlock = function(element)
+	{
+		article = $(element);
+		if (article.hasClass('col-reactive'))
+		{
+			if (article.hasClass('archived')) article.addClass('col-md-6' ).removeClass('col-md-12');
+			else                              article.addClass('col-md-12').removeClass('col-md-6' );
+		}
 	}
 	// this.toggleBib = function(e)
 	// {
