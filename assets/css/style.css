@@ -46,7 +46,6 @@ nav.navbar
 }
 .section
 {
-	/* padding: 30px 0; */
 	padding-top:           0;
 }
 .section header
@@ -126,11 +125,27 @@ nav.navbar
 /*****************************************************************************
  *                          P u b l i c a t i o n s                          *
  *****************************************************************************/
+.publication
+{
+	padding:               10px 0;
+}
 .publication-title-short
 {
 	text-overflow:         ellipsis;
 	overflow:              hidden;
-	white-space:           nowrap;
 	text-align:            center;
+	margin:                3px 0;
+}
+#publications .publication-title-short
+{
+	white-space:           nowrap;
 }
 
+/*****************************************************************************
+ *                                   M a p                                   *
+ *****************************************************************************/
+.map
+{
+	margin:                10px 0;
+	height:                60vh;
+}
