@@ -33,8 +33,3 @@ postMSE.client = postMSE.client || {};
 		}
 	}
 }).apply(postMSE.client);
-
-$(function(){
-	$(".col-reactive").each(function(idx, el){ postMSE.client.reactBlock(el); });
-});
-

@@ -1076,6 +1076,8 @@
 <script type="text/javascript" src="assets/js/nouislider.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="assets/js/material-kit.js"></script>
+<script type="text/javascript" src="assets/js/mse.js"></script>
+<script type="text/javascript" src="assets/js/search.js"></script>
 
 <script type="text/javascript">
 	$(function(){
@@ -1095,6 +1097,7 @@
 		map_work_argonne.addLayer(new L.TileLayer('https://b.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 6, maxZoom: 18, attribution: ''}));
 		L.marker([41.717447, -87.983429]).bindPopup('MCS, Bldg 240').addTo(map_work_argonne);
 
+		$(".col-reactive").each(function(idx, el){ postMSE.client.reactBlock(el); });
 		$(".packery").packery();
 		$("a.scroolTo").click(function(id){
 			$("html,body").animate({scrollTop: $($(this).attr("href")).offset().top});
@@ -1103,8 +1106,6 @@
 	});
 </script>
 
-<script type="text/javascript" src="assets/js/search.js"></script>
-<script type="text/javascript" src="assets/js/mse.js"></script>
 <!-- <script type="text/javascript" src="assets/js/particles.js"></script> -->
 <!-- <script type="text/javascript" src="assets/js/particles_launch.js"></script> -->
 
