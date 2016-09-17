@@ -1,0 +1,26 @@
+<div class="card card-nav-tabs">
+	<div class="header header-default">
+		<div class="nav-tabs-navigation">
+			<div class="nav-tabs-wrapper">
+				<ul class="nav nav-tabs" data-tabs="tabs">
+					<div class="form-group label-floating">
+						<label class="control-label">Filter publications (Title, Authors, Year, Conference ...)</label>
+						<input id="publication-search" type="text" class="form-control" onkeyup="filter_publications();"/>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="tab-content text-center">
+			<div class="content">
+				{% for entry in section.content %}
+					{% include 'structure/241_bibentry.twig' %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/js/search.js" defer></script>
+

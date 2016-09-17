@@ -1,0 +1,59 @@
+<!--
+	#############################################################################
+	#                                                                           #
+	#                            R e s s o u r c e s                            #
+	#                                                                           #
+	#############################################################################
+-->
+
+<!--                                 jQuery                                 -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!--                               Bootstrap                                -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--                                Material                                -->
+<script type="text/javascript" src="assets/js/material.min.js"></script>
+<script type="text/javascript" src="assets/js/material-kit.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/material-kit.css"/>
+<!--                                Packery                                 -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/packery/2.0.0/packery.pkgd.min.js"></script>
+<!--                                Leaflet                                 -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"/>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+<!--                               ResumeCard                               -->
+<link rel="stylesheet" type="text/css" href="assets/css/resumecard.css">
+<!--                             Fonts and icons                            -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<!--                               Javascript                               -->
+<script type="text/javascript" src="assets/js/postmse.js"></script>
+<!--                               CSS Files                                -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+<script type="text/javascript">
+	$(function(){
+		$(window).on("scroll", materialKit.checkScrollForTransparentNavbar);
+		window_width = $(window).width();
+		if (window_width >= 768){
+			big_image = $(".wrapper > .header");
+			$(window).on("scroll", materialKitDemo.checkScrollForParallax);
+		}
+
+		var map_contact_fr = L.map("map_contact_fr").setView([45.742997, 4.823842], 14);
+		map_contact_fr.addLayer(new L.TileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {minZoom: 6, maxZoom: 18, attribution: ""}));
+		L.marker([45.7298016, 4.8271596]).bindPopup("ENS de Lyon").addTo(map_contact_fr);
+		L.marker([45.7455890, 4.8260870]).bindPopup("Home").addTo(map_contact_fr);
+
+		var map_work_argonne = L.map('map_work_argonne').setView([41.713763, -87.982914], 12);
+		map_work_argonne.addLayer(new L.TileLayer('https://b.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 6, maxZoom: 18, attribution: ''}));
+		L.marker([41.717447, -87.983429]).bindPopup('MCS, Bldg 240').addTo(map_work_argonne);
+
+		$(".col-reactive").each(function(idx, el){ postMSE.client.reactBlock(el); });
+		$(".packery").packery();
+		$("a.scroolTo").click(function(id){
+			$("html,body").animate({scrollTop: $($(this).attr("href")).offset().top});
+			return false;
+		});
+	});
+</script>

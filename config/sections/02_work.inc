@@ -1,0 +1,135 @@
+<?php
+	$sections['work'] = array(
+		'title'            => 'Work',
+		'type'             => 'fullblocks',
+		'settings'         => array('class' => 'info'),
+		'headerBackground' => 'assets/img/03-work.jpg',
+		'icon'             => 'build',
+		'content'          => array(
+			array(
+				'title'    => 'Compas\'2016',
+				'content'  => '<p>I\'ll be presenting an overview poster about my PhD at <a href="http://compas2016.sciencesconf.org/" target="_blank" class="text-%class%">Compas\'2016</a> in Lorient (5 july to 8 july 2016).</p>',
+				'biblio'   => array($publications['croubois2016']),
+			),
+			array(
+				'title'    => '5th JLESC Workshop & 3rd JLESC Summer School on Resilience',
+				'content'  => '<p>I\'ll be at the <a href="https://jlesc.github.io/events/5th-jlesc-workshop/" target="_blank" class="text-%class%">5th JLESC Workshop</a> (Join Lab on Extreme-Scale Computing) and at the <a href="https://jlesc.github.io/events/3rd-jlesc-summer-school/" target="_blank" class="text-%class%">3rd JLESC Summer School</a> in ENS de Lyon (27 june to 1 july 2016).</p>',
+				'archived' => true,
+			),
+			array(
+				'title'    => 'OpenStack Workshop in Lyon',
+				'content'  => '<p>Meet me at the <a href="https://www.eventbrite.fr/e/billets-openstack-workshop-lyon-2016-25669207290" class="text-%class%">OpenStack Workshop</a> at ENS de Lyon (june 15, 2016).</p>',
+				'archived' => true,
+			),
+			array(
+				'title'    => 'JDD 2016',
+				'content'  => '<p>Participation to the 2016 PhD students days in Saint-Pierre-de-Bœuf (june 13~14 2016).</p>',
+				'archived' => true,
+			),
+			array(
+				'title'    => 'RSD Winter School 2016 - Toward an autonomic approach of workflows distribution on cloud',
+				'content'  => '<p>Advances in distributed systems technologies require a constant rethinking of previous deployments methods. Development of the Cloud paradigm is symptomatic of a broader tendency toward more dynamicity in the management of tasks and resources. However, the scientific computing still mostly uses old paradigms when deploying complex workflows. Our focus is therefore to propose a solution that will make the link between the needs of user in terms of scientific computation and the features offered by cloud providers. After having modelled both those needs and features, we describe the different mechanisms which are part of what should allow for an autonomous platform dedicated to collaborative scientific computing.</p>',
+				'biblio'   => array(
+					array(
+						'title' => 'Seminar slides.',
+						'type'  => 'slides',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2016/AutonomicWorkflowsOnCloud.pdf'),
+					),
+				),
+				'archived' => true,
+			),
+			array(
+				'title'    => 'Argonne National Laboratory - Decaf',
+				'content'  => '<p>I have been working as a visitor in <a href="http://www.anl.gov/" target="_blank" class="text-%class%">Argonne National Laboratory, Illinois</a> on the resiliency layer of the Decaf project.</p><div id="map_work_argonne" class="map" style="height:240px"></div><p>The Decaf project aims at providing flexible and efficient pipeline management for futur exa-scale infrastructures. As part of the Decaf resiliency layer, I studied mecanisms that could provide result validation meta data to conform the pipeline management system with expectations in the domain of trust and validation.</p><p>Protecting results against all forms of corruption and ensuring trustworthiness are becoming more important. While previous work focuses on application-specific detectors, the dataflow manager in our current work in the Decaf project aims to have an efficient generic mechanism. We address those issues using new replication patterns that rely on the use of an auxiliary method and an external learning observer. We focused our work on both building theoretical validation mechanisms and deploying different usecases where we were able to detect silent data corruption.</p>',
+				'biblio'   => array(
+					$publications['peterka2016'],
+					array(
+						'title' => 'Seminar slides.',
+						'type'  => 'slides',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2015/ANL-trust2015.pdf'),
+					),
+				),
+			),
+			array(
+				'title'    => 'M2 Internship - Augmented reality for mobile platform',
+				'content'  => '<p>Nowadays, augmented reality offers new possibilities of interactions for users. However, development of mobile applications is still limited to simple rendering methods which do not offer visually credible  results in real time. Common methods either use complex acquisition hardware or intensive computing resources. In this paper, we develop a method for rendering virtual objects into a real scene, with dynamically acquired lighting, using mipmap levels for efficiently computing lighting and shadows data. Such method opens many perspectives to improve users’ interactions with their mobile devices.</p>',
+				'biblio'   => array(
+					array(
+						'title' => 'Full report (in french)',
+						'type'  => 'report',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2014/AugmentedReality.pdf'),
+					),
+					array(
+						'title' => 'Code on GitHub',
+						'type'  => 'code',
+						'link'  => array('title' => 'Link', 'url' => 'https://github.com/Amxx/MobileReality'),
+					),
+				),
+				'archived' => true,
+			),
+			array(
+				'title'    => 'M1 Internship - libGridRPCDM',
+				'content'  => '<p>LibGridRCPDM is a library providing an interoperable GridRPC API with a dedicated data manager corresponding to the GridRPC Data Manager standard.</p>',
+				'biblio'   => array(
+					$publications['caniou2015'],
+					array(
+						'title' => 'Full Report (in french)',
+						'type'  => 'report',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/publications/2014/2014_Standardized_multi-protocol_data_management_for_grid_and_cloud_gridrpc_frameworks.pdf'),
+					),
+				),
+				'archived' => true,
+			),
+			array(
+				'title'    => 'MDMA Project',
+				'content'  => '<p>Motion Detection Midi Adaptor</p>',
+				'biblio'   => array(
+					array(
+						'title' => 'L0 report',
+						'type'  => 'report',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2013/mdma/MDMA-L0.pdf'),
+					),
+					array(
+						'title' => 'L2 report',
+						'type'  => 'report',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2013/mdma/MDMA-L2.pdf'),
+					),
+					array(
+						'title' => 'Final Report (L3)',
+						'type'  => 'report',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2013/mdma/MDMA-L3.pdf'),
+					),
+				),
+				'archived' => true,
+			),
+			array(
+				'title'    => 'L3 Internship',
+				'content'  => '<p>Étude de la dynamique des communautéde twitters en relation avec l\'utilisation des hashtags</p>',
+				'biblio'   => array(
+					array(
+						'title' => 'Full report (in french)',
+						'type'  => 'report',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2012/QtTWitGraph.pdf'),
+					),
+					array(
+						'title' => 'Code',
+						'type'  => 'code',
+						'link'  => array('title' => 'Link', 'url' => '//shared.hadriencroubois.com/work/2012/QtTWitGraph_v2.tar.gz'),
+					),
+				),
+				'archived' => true,
+			),
+			array(
+				'title'    => 'L3 Colloquium',
+				'biblio'   => array(
+					array(
+						'title' => 'Transport Layer Identiﬁcation of P2P Traffic',
+						'type'  => 'slides',
+						'link'  => array('title' => 'Link', 'url' => '//shared.hadriencroubois.com/work/2012/Coloquium.pdf'),
+					),
+				),
+				'archived' => true,
+			),
+		),
+	);
+?>

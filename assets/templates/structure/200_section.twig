@@ -1,0 +1,17 @@
+<section id="{{ section.title | lower }}" class="section">
+	<header style="background-image: url('{{ section.headerBackground }}')">
+		<h1>{{ section.title }}</h1>
+	</header>
+	<div class="container tim-container">
+	{% if     section.type == "blocks"     %}{% include 'structure/210_blocks.twig'     %}
+	{% elseif section.type == "fullblocks" %}{% include 'structure/220_fullblocks.twig' %}
+	{% elseif section.type == "timeline"   %}{% include 'structure/230_timeline.twig'   %}
+	{% elseif section.type == "biblio"     %}{% include 'structure/240_biblio.twig'     %}
+	{% elseif section.type == "tabs"       %}{% include 'structure/250_tabs.twig'       %}
+	{% else                                %}{{ section.content | raw }}
+	{% endif %}
+	{% if section.footer %}
+		{{ section.footer | raw }}
+	{% endif %}
+	</div>
+</section>

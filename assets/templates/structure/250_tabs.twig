@@ -1,0 +1,25 @@
+
+<div class="card card-nav-tabs">
+	<div class="header header-{{ section.settings.class }}">
+		<div class="nav-tabs-navigation">
+			<div class="nav-tabs-wrapper">
+				<ul class="nav nav-tabs" data-tabs="tabs">
+
+					{% for entry in section.content %}
+						<li {% if loop.first %}class="active"{% endif %}><a href="#{{ entry.title | lower }}" data-toggle="tab"><i class="material-icons">{{ entry.icon }}</i>{{ entry.title }}</a></li>
+					{% endfor %}
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="tab-content text-center">
+			{% for entry in section.content %}
+				<div class="tab-pane {% if loop.first %}active{% endif %}" id="{{ entry.title | lower }}">
+					{{ entry.content | raw }}
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

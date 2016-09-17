@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="{{ icon }}">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+		<title>{{ title }}</title>
+	</head>
+	<body class="index-page">
+		{% include 'structure/000_nav.twig' %}
+		<div class="wrapper">
+			{% include 'structure/100_header.twig' %}
+			<main class="main main-raised">
+				{% for section in sections %}
+					{% include 'structure/200_section.twig' %}
+				{% endfor %}
+			</main>
+		</div>
+		{% include 'structure/300_footer.twig' %}
+		{% include 'modal.twig' %}
+	</body>
+	{% include 'ressources.twig' %}
+</html>
