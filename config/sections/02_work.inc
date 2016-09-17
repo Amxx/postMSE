@@ -1,8 +1,8 @@
 <?php
 	$sections['work'] = array(
 		'title'            => 'Work',
-		'type'             => 'fullblocks',
-		'settings'         => array('class' => 'info'),
+		'type'             => 'blocks',
+		'settings'         => array('class' => 'info', 'width' => 'col-reactive'),
 		'headerBackground' => 'assets/img/03-work.jpg',
 		'icon'             => 'build',
 		'content'          => array(

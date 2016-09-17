@@ -1,13 +1,16 @@
 <div class="row packery">
 	{% for block in section.content %}
 		{% set class = section.settings.class %}
-		<article class="{{ section.settings.width }} no-padding">
+		<article class="{{ section.settings.width }} no-padding {% if block.archived %}archived{% endif %}">
 			<div class="block panel">
 				<div class="btn-group btn-group-justified" role="group">
 					<a class="btn btn-{{ class }} btn-raised btn-primary" onclick="postMSE.client.toggleBlock(this);">{{ block.title }}</a>
 				</div>
 				<div class="block-body">
 					{{ block.content | replace({'%class%': class }) | raw }}
+					{% for entry in block.biblio %}
+						{% include 'structure/241_bibentry.twig' %}
+					{% endfor %}
 				</div>
 			</div>
 		</article>
