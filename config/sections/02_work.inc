@@ -9,7 +9,7 @@
 			array(
 				'title'    => 'Compas\'2016',
 				'content'  => '<p>I\'ll be presenting an overview poster about my PhD at <a href="http://compas2016.sciencesconf.org/" target="_blank" class="text-%class%">Compas\'2016</a> in Lorient (5 july to 8 july 2016).</p>',
-				'biblio'   => array($publications['croubois2016']),
+				'biblio'   => array($publications['Croubois2016']),
 			),
 			array(
 				'title'    => '5th JLESC Workshop & 3rd JLESC Summer School on Resilience',
@@ -42,7 +42,7 @@
 				'title'    => 'Argonne National Laboratory - Decaf',
 				'content'  => '<p>I have been working as a visitor in <a href="http://www.anl.gov/" target="_blank" class="text-%class%">Argonne National Laboratory, Illinois</a> on the resiliency layer of the Decaf project.</p><div id="map_work_argonne" class="map" style="height:240px"></div><p>The Decaf project aims at providing flexible and efficient pipeline management for futur exa-scale infrastructures. As part of the Decaf resiliency layer, I studied mecanisms that could provide result validation meta data to conform the pipeline management system with expectations in the domain of trust and validation.</p><p>Protecting results against all forms of corruption and ensuring trustworthiness are becoming more important. While previous work focuses on application-specific detectors, the dataflow manager in our current work in the Decaf project aims to have an efficient generic mechanism. We address those issues using new replication patterns that rely on the use of an auxiliary method and an external learning observer. We focused our work on both building theoretical validation mechanisms and deploying different usecases where we were able to detect silent data corruption.</p>',
 				'biblio'   => array(
-					$publications['peterka2016'],
+					$publications['Peterka2015'],
 					array(
 						'title' => 'Seminar slides.',
 						'type'  => 'slides',
@@ -71,7 +71,7 @@
 				'title'    => 'M1 Internship - libGridRPCDM',
 				'content'  => '<p>LibGridRCPDM is a library providing an interoperable GridRPC API with a dedicated data manager corresponding to the GridRPC Data Manager standard.</p>',
 				'biblio'   => array(
-					$publications['caniou2015'],
+					$publications['Caniou2014'],
 					array(
 						'title' => 'Full Report (in french)',
 						'type'  => 'report',
