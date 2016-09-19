@@ -1,8 +1,8 @@
-{% if     entry.type | lower == 'poster'  %}{% set class, type = 'warning', 'Poster'         %}
-{% elseif entry.type | lower == 'journal' %}{% set class, type = 'success', 'Journal paper'  %}
-{% elseif entry.type | lower == 'code'    %}{% set class, type = 'default', 'Code'           %}
-{% elseif entry.type | lower == 'report'  %}{% set class, type = 'default', 'Report'         %}
-{% elseif entry.type | lower == 'slides'  %}{% set class, type = 'default', 'Slides'         %}
+{% if     entry.type | lower == 'poster'  %}{% set class, type = 'warning', 'Poster'   %}
+{% elseif entry.type | lower == 'article' %}{% set class, type = 'success', 'Article'  %}
+{% elseif entry.type | lower == 'code'    %}{% set class, type = 'default', 'Code'     %}
+{% elseif entry.type | lower == 'report'  %}{% set class, type = 'default', 'Report'   %}
+{% elseif entry.type | lower == 'slides'  %}{% set class, type = 'default', 'Slides'   %}
 {% endif %}
 
 <div class="publication panel row">
@@ -25,10 +25,10 @@
 	</div>
 	<div class="col-md-3 col-xs-12">
 		<div class="btn-group btn-group-justified vcenter">
-			{% if entry.details %}
+			{% if entry.details.author %}
 				<a class="btn btn-default btn-raised btn-xs" data-toggle="modal" data-target="#details-modal" onclick="modal_details(this)">Details</a>
 			{% endif %}
-			{% if entry.link %}
+			{% if entry.link.url %}
 				<a class="btn btn-default btn-raised btn-xs" href="{{ entry.link.url }}" target="_blank">{{ entry.link.title }}</a>
 			{% endif %}
 		</div>
