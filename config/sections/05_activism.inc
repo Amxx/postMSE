@@ -7,11 +7,11 @@
 		'icon'             => 'lock',
 		'content'          => array(
 			array(
-				'title'   => '[Conference] Les algorithms qui font l'internet',
+				'title'   => '[Conference] Les algorithms qui font l\'internet',
 				'content' => '<p>Conference publique dans le cadre de la fête de la science 2016</p><ul><li>Samedi 15 octobre 2016, 16h30, ENS de Lyon</ul>',
 				'biblio'   => array(
 					array(
-						'title' => 'Les algorithms qui font l'internet',
+						'title' => 'Les algorithms qui font l\'internet',
 						'type'  => 'slides',
 						'link'  => array('title' => 'Link', 'url' => '//shared.hadriencroubois.com/activism/FeteDeLaScience2016.pdf'),
 					),
