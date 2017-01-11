@@ -25,6 +25,10 @@
 				'title'   => '[Débat] Enjeux politiques de l’informatique',
 				'content' => 'Animation d\'un débat dans le cadre de l\'<a href="https://nuitdeboutlyon.fr/universite-populaire/" target="_blank" class="text-%class%">Université populaire</a> et de #SciencesDebout Lyon.<ul><li>Jeudi 45 mars (14 avril) 2016, 19h, Place guichard</ul>',
 			),
+			array(
+				'title'   => 'Tor relay',
+				'content' => '<a href="https://atlas.torproject.org/#search/BDA0BC3571FCCF656A962AA95E2DFF6450923BB5" target="_blank">Pleiades stats on atlas.torproject.org</a>',
+			),
 		),
 	);
 ?>
