@@ -7,6 +7,40 @@
 		'icon'             => 'school',
 		'content'          => array(
 			array(
+				'title'    => '[2016-2017] Digital Image',
+				'content'  => '<h5>M1IF - ENS de Lyon - 2016-2017</h5>
+<h3>Teaching materials:</h3>
+<ul>
+	<li>
+		[17 feb] TP1 - Image manipulation
+		<ul>
+			<li>Assignment (fr): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp1.fr.pdf" target="_blank" class="text-%class%">tp1.fr.pdf</a> (152.8 ko)</li>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp1.en.pdf" target="_blank" class="text-%class%">tp1.en.pdf</a> (159.7 ko)</li>
+			<li>Archive:         <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp1.tar.gz" target="_blank" class="text-%class%">tp1.tar.gz</a> (11.6 ko)</li>
+			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li> -->
+		</ul>
+	</li>
+</ul>
+',
+				'archived' => false,
+			),
+			array(
+				'title'    => '[2016-2017] Distributed systems',
+				'content'  => '<h5>M1IF - ENS de Lyon - 2016-2017</h5>
+<h3>Teaching materials:</h3>
+<ul>
+	<li>
+		[14 & 21 feb] TP1 - Erlang for distributed systems
+		<ul>
+			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1.pdf" target="_blank" class="text-%class%">tp1.pdf</a> (161.7 ko)</li>
+			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li> -->
+		</ul>
+	</li>
+</ul>
+',
+				'archived' => false,
+			),
+			array(
 				'title'    => '[2015-2016] Distributed systems',
 				'content'  => '<h5>M1IF - ENS de Lyon - 2015-2016</h5>
 <h3>Teaching materials:</h3>
