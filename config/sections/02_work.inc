@@ -7,6 +7,10 @@
 		'icon'             => 'build',
 		'content'          => array(
 			array(
+				'title'    => 'Toward an autonomic approach of workflows distribution on cloud',
+				'content'  => '<p>Slides are available <a href="//shared.hadriencroubois.com/work/2017/slides.pdf" target="_blank" class="text-%class%">here</a> (3.9Mo).</p>',
+			),
+			array(
 				'title'    => 'Compas\'2016',
 				'content'  => '<p>I\'ll be presenting an overview poster about my PhD at <a href="http://compas2016.sciencesconf.org/" target="_blank" class="text-%class%">Compas\'2016</a> in Lorient (5 july to 8 july 2016).</p>',
 				'biblio'   => array($publications['Croubois2016']),
