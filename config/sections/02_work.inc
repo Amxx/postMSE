@@ -14,6 +14,7 @@
 				'title'    => 'Compas\'2016',
 				'content'  => '<p>I\'ll be presenting an overview poster about my PhD at <a href="http://compas2016.sciencesconf.org/" target="_blank" class="text-%class%">Compas\'2016</a> in Lorient (5 july to 8 july 2016).</p>',
 				'biblio'   => array($publications['Croubois2016']),
+				'archived' => true,
 			),
 			array(
 				'title'    => '5th JLESC Workshop & 3rd JLESC Summer School on Resilience',
