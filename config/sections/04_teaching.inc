@@ -20,6 +20,13 @@
 			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li> -->
 		</ul>
 	</li>
+	<li>
+		[17 feb] TP2 - Histogram manipulation
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp2.en.pdf" target="_blank" class="text-%class%">tp2.en.pdf</a> (208.0 ko)</li>
+			<li>Archive:         <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp2.tar.gz" target="_blank" class="text-%class%">tp2.tar.gz</a> (38.2 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
