@@ -43,6 +43,13 @@
 			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li> -->
 		</ul>
 	</li>
+	<li>
+		[7 march] TP2 - Token passing
+		<ul>
+			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp2.pdf" target="_blank" class="text-%class%">tp2.pdf</a> (156.5 ko)</li>
+			<li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp2_correction.erl" target="_blank" class="text-%class%">tp2_correction.erl</a> (2.6 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
