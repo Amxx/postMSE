@@ -45,7 +45,7 @@
 		[14 & 21 feb] TP1 - Erlang for distributed systems
 		<ul>
 			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1.pdf" target="_blank" class="text-%class%">tp1.pdf</a> (161.7 ko)</li>
-			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li> -->
+			<li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li>
 		</ul>
 	</li>
 	<li>
