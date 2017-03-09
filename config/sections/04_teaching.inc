@@ -17,7 +17,6 @@
 			<li>Assignment (fr): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp1.fr.pdf" target="_blank" class="text-%class%">tp1.fr.pdf</a> (152.8 ko)</li>
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp1.en.pdf" target="_blank" class="text-%class%">tp1.en.pdf</a> (159.7 ko)</li>
 			<li>Archive:         <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp1.tar.gz" target="_blank" class="text-%class%">tp1.tar.gz</a> (11.6 ko)</li>
-			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp1_correction.erl" target="_blank" class="text-%class%">tp1_correction.erl</a> (3.4 ko)</li> -->
 		</ul>
 	</li>
 	<li>
@@ -25,6 +24,12 @@
 		<ul>
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp2.en.pdf" target="_blank" class="text-%class%">tp2.en.pdf</a> (208.0 ko)</li>
 			<li>Archive:         <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp2.tar.gz" target="_blank" class="text-%class%">tp2.tar.gz</a> (38.2 ko)</li>
+		</ul>
+	</li>
+	<li>
+		[9 march] TP3 - Local filtering, gradient and Corner detection
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp3.en.pdf" target="_blank" class="text-%class%">tp3.en.pdf</a> (284.7 ko)</li>
 		</ul>
 	</li>
 </ul>
