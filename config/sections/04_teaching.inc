@@ -60,7 +60,7 @@
 		<ul>
 			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp3.pdf" target="_blank" class="text-%class%">tp3.pdf</a> (187.8 ko)</li>
 			<li>Skeleton: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp3_skeleton.erl" target="_blank" class="text-%class%">tp3_skeleton.erl</a> (637 ko)</li>
-			<!-- <li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp3_correction.erl" target="_blank" class="text-%class%">tp3_correction.erl</a> (2.3 ko)</li> -->
+			<li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp3_correction.erl" target="_blank" class="text-%class%">tp3_correction.erl</a> (2.3 ko)</li>
 		</ul>
 	</li>
 </ul>
