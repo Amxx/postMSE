@@ -32,6 +32,12 @@
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp3.en.pdf" target="_blank" class="text-%class%">tp3.en.pdf</a> (284.7 ko)</li>
 		</ul>
 	</li>
+	<li>
+		[16 march] TP4 - Connected components extraction
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp4.en.pdf" target="_blank" class="text-%class%">tp4.en.pdf</a> (147.3 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
