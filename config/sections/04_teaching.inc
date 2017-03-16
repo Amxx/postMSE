@@ -36,6 +36,7 @@
 		[16 march] TP4 - Connected components extraction
 		<ul>
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp4.en.pdf" target="_blank" class="text-%class%">tp4.en.pdf</a> (147.3 ko)</li>
+			<li>Ressource: <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/material/hop.pgm" target="_blank" class="text-%class%">hop.pgm</a> (15.4 mo)</li>
 		</ul>
 	</li>
 </ul>
