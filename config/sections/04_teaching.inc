@@ -70,6 +70,12 @@
 			<li>Correction: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp3_correction.erl" target="_blank" class="text-%class%">tp3_correction.erl</a> (2.3 ko)</li>
 		</ul>
 	</li>
+	<li>
+		[21 march] TP4 - Grid deployment
+		<ul>
+			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp4.pdf" target="_blank" class="text-%class%">tp4.pdf</a> (147.0 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
