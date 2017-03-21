@@ -1,8 +1,9 @@
-{% if     entry.type | lower == 'poster'  %}{% set class, type = 'warning', 'Poster'   %}
-{% elseif entry.type | lower == 'article' %}{% set class, type = 'success', 'Article'  %}
-{% elseif entry.type | lower == 'code'    %}{% set class, type = 'default', 'Code'     %}
-{% elseif entry.type | lower == 'report'  %}{% set class, type = 'default', 'Report'   %}
-{% elseif entry.type | lower == 'slides'  %}{% set class, type = 'default', 'Slides'   %}
+{% if     entry.type | lower == 'poster'     %}{% set class, type = 'warning', 'Poster'     %}
+{% elseif entry.type | lower == 'article'    %}{% set class, type = 'success', 'Article'    %}
+{% elseif entry.type | lower == 'conference' %}{% set class, type = 'success', 'Conference' %}
+{% elseif entry.type | lower == 'code'       %}{% set class, type = 'default', 'Code'       %}
+{% elseif entry.type | lower == 'report'     %}{% set class, type = 'default', 'Report'     %}
+{% elseif entry.type | lower == 'slides'     %}{% set class, type = 'default', 'Slides'     %}
 {% endif %}
 
 <div class="publication panel row">
