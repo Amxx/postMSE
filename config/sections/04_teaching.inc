@@ -39,6 +39,12 @@
 			<li>Ressource: <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/material/hop.pgm" target="_blank" class="text-%class%">hop.pgm</a> (15.4 mo)</li>
 		</ul>
 	</li>
+	<li>
+		[24 march] TP5 - DGtal, Tracing and Border Extraction
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp5.en.pdf" target="_blank" class="text-%class%">tp5.en.pdf</a> (134.4 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
