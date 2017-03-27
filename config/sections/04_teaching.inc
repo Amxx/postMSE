@@ -83,7 +83,7 @@
 		</ul>
 	</li>
 	<li>
-		[10 march] Project presentation
+		[28 march] Project presentation
 		<ul>
 			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2016-M1-SystDist/project.pdf" target="_blank" class="text-%class%">project.pdf</a> (191.1 ko)</li>
 		</ul>
