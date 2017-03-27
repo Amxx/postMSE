@@ -82,6 +82,12 @@
 			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2015-M1-SystDist/tp4.pdf" target="_blank" class="text-%class%">tp4.pdf</a> (147.0 ko)</li>
 		</ul>
 	</li>
+	<li>
+		[10 march] Project presentation
+		<ul>
+			<li>Assignment: <a href="//shared.hadriencroubois.com/teaching/2016-M1-SystDist/project.pdf" target="_blank" class="text-%class%">project.pdf</a> (191.1 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
