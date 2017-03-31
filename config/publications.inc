@@ -16,7 +16,11 @@
 			'link'    => array('title' => 'Pdf', 'url' => $bibentry->getField('file')),
 			'details' => array(
 				'author'   => $bibentry->getField('author'),
-				'journal'  => $bibentry->getField('journal').$bibentry->getField('conference'),
+				'details'  => implode(' ', array_filter(array(
+					$bibentry->getField('journal'),
+					$bibentry->getField('conference'),
+					$bibentry->getField('organization') ? '('.$bibentry->getField('organization').')' : ''
+				))),
 				'abstract' => $bibentry->getField('abstract'),
 				'bibtex'   => $bibentry->getText(),
 			),

@@ -6,7 +6,7 @@ $cache = phpFastCache();
 $hash  = md5($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].$_SERVER['QUERY_STRING']);
 $html  = __c('files')->get($hash);
 
-if ($html == null)
+// if ($html == null)
 {
 	require_once 'config/data.inc';
 	require_once 'assets/libs/Twig/Autoloader.php';

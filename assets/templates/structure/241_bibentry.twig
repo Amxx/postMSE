@@ -17,7 +17,7 @@
 				<h6 class="publication-title">{{ entry.title }}</h6>
 				<p>
 					<span class="publication-authors"       >{{ entry.details.author  }}</span>
-					<span class="publication-ref text-muted">{{ entry.details.journal }}</span>
+					<span class="publication-ref text-muted">{{ entry.details.details }}</span>
 				</p>
 				{% if entry.details.abstract %}<p class='justify'>{{ entry.details.abstract }}</p>  {% endif %}
 				{% if entry.details.bibtex   %}<pre              >{{ entry.details.bibtex   }}</pre>{% endif %}
