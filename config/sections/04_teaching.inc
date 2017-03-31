@@ -45,6 +45,12 @@
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp5.en.pdf" target="_blank" class="text-%class%">tp5.en.pdf</a> (134.4 ko)</li>
 		</ul>
 	</li>
+	<li>
+		[31 march] TP6 - Border Extraction and DSS Segmentation
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp6.en.pdf" target="_blank" class="text-%class%">tp6.en.pdf</a> (101.4 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
