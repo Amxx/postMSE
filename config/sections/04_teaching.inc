@@ -49,6 +49,13 @@
 		[31 march] TP6 - Border Extraction and DSS Segmentation
 		<ul>
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp6.en.pdf" target="_blank" class="text-%class%">tp6.en.pdf</a> (101.4 ko)</li>
+			<li>Correction: <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp6.cpp" target="_blank" class="text-%class%">tp6.cpp</a> (2.5 ko)</li>
+		</ul>
+	</li>
+	<li>
+		[7 april] TP7 - DSS Covering and Normal Vector Estimation
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp7.en.pdf" target="_blank" class="text-%class%">tp6.en.pdf</a> (133.7 ko)</li>
 		</ul>
 	</li>
 </ul>
