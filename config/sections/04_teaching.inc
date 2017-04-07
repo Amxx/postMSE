@@ -55,7 +55,7 @@
 	<li>
 		[7 april] TP7 - DSS Covering and Normal Vector Estimation
 		<ul>
-			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp7.en.pdf" target="_blank" class="text-%class%">tp6.en.pdf</a> (133.7 ko)</li>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp7.en.pdf" target="_blank" class="text-%class%">tp7.en.pdf</a> (133.7 ko)</li>
 		</ul>
 	</li>
 </ul>
