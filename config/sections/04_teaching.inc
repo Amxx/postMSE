@@ -67,7 +67,7 @@
 	<li>
 		[28 april] TP9 - Convex Hulls and Digital Convex Hulls
 		<ul>
-			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp9.en.pdf" target="_blank" class="text-%class%">tp8.en.pdf</a> (124.5 ko)</li>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp9.en.pdf" target="_blank" class="text-%class%">tp9.en.pdf</a> (124.5 ko)</li>
 		</ul>
 	</li>
 </ul>
