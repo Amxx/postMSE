@@ -70,6 +70,12 @@
 			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp9.en.pdf" target="_blank" class="text-%class%">tp9.en.pdf</a> (124.5 ko)</li>
 		</ul>
 	</li>
+	<li>
+		[5 mai] TP10 - Height maps and Mesh visualization
+		<ul>
+			<li>Assignment (en): <a href="//shared.hadriencroubois.com/teaching/2016-M1-DG/tp10.en.pdf" target="_blank" class="text-%class%">tp10.en.pdf</a> (509.3 ko)</li>
+		</ul>
+	</li>
 </ul>
 ',
 				'archived' => false,
