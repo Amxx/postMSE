@@ -7,8 +7,23 @@
 		'icon'             => 'build',
 		'content'          => array(
 			array(
-				'title'    => 'Toward an autonomic approach of workflows distribution on cloud',
-				'content'  => '<p>Slides are available <a href="//shared.hadriencroubois.com/work/2017/slides.pdf" target="_blank" class="text-%class%">here</a> (3.9Mo).</p>',
+				'title'    => 'PDCO @ IPDPS 2017 (Orlando)',
+				'biblio'   => array(
+					$publications['Croubois2017'],
+					array(
+						'title' => 'Workshop slides.',
+						'type'  => 'slides',
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2017/PDCO_slides.pdf'),
+					),
+	
+				),
+				'archived' => false,
+			),
+			array(
+				// 'title'    => 'Toward an autonomic approach of workflows distribution on cloud',
+				'title'    => 'D2 commission',
+				'content'  => '<p>Slides are available <a href="//shared.hadriencroubois.com/work/2017/D2commission_slides.pdf" target="_blank" class="text-%class%">here</a> (3.9Mo).</p>',
+				'archived' => true,
 			),
 			array(
 				'title'    => 'Compas\'2016',
@@ -54,6 +69,7 @@
 						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2015/ANL-trust2015.pdf'),
 					),
 				),
+				'archived' => true,
 			),
 			array(
 				'title'    => 'M2 Internship - Augmented reality for mobile platform',
