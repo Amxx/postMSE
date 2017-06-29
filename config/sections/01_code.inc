@@ -25,7 +25,7 @@
 				              <ul>
 				              	<li>Language: PHP/JavaScript/CSS with Twig, Boostrap, and phpfastcache</li>
 				              	<li>Licence: GPLv3</li>
-				              	<li>Sources: <a href="https://github.com/Amxx/MSE-JPS" target="_blank" class="text-%class%">https://github.com/Amxx/postMSE</a></li>
+				              	<li>Sources: <a href="https://github.com/Amxx/postMSE" target="_blank" class="text-%class%">https://github.com/Amxx/postMSE</a></li>
 				              </ul>',
 			),
 			array(
