@@ -15,7 +15,6 @@
 						'type'  => 'slides',
 						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2017/PDCO_slides.pdf'),
 					),
-	
 				),
 				'archived' => false,
 			),
