@@ -2,7 +2,7 @@
 	$sections['code'] = array(
 		'title'            => 'Code',
 		'type'             => 'blocks',
-		'settings'         => array('class' => 'info', 'width' => 'col-md-4'),
+		'settings'         => array('class' => 'info', 'width' => 'col-sm-4'),
 		'headerBackground' => 'assets/img/02-code.jpg',
 		'icon'             => 'polymer',
 		'content'          => array(
@@ -15,6 +15,17 @@
 				              	<li>Language: C++17</li>
 				              	<li>Licence: to be determined</li>
 				              	<li>Sources: not yet available</li>
+				              </ul>',
+			),
+			array(
+				'title'   => 'postMSE',
+				'content' => '<p>postMSE is a bootstrap base webpage engine. It is the successor to MSE-JPS and is used to power my personal webpage. One of the feature of postMSE is the management of bibliographic references. As MSE-JSP and postMSE are very different, both are maintained in parallel.</p>
+				              <p>Status: released & maintained</p>
+				              <div class="progress"><div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div></div>
+				              <ul>
+				              	<li>Language: PHP/JavaScript/CSS with Twig, Boostrap, and phpfastcache</li>
+				              	<li>Licence: GPLv3</li>
+				              	<li>Sources: <a href="https://github.com/Amxx/MSE-JPS" target="_blank" class="text-%class%">https://github.com/Amxx/postMSE</a></li>
 				              </ul>',
 			),
 			array(
