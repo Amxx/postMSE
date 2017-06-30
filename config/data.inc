@@ -13,6 +13,7 @@
 			array('url' => 'https://www.facebook.com/hcroubois',             'fa' => 'fa fa-facebook'      ),
 			array('url' => 'https://twitter.com/Amxx',                       'fa' => 'fa fa-twitter'       ),
 			array('url' => 'https://www.flickr.com/photos/hadriencroubois/', 'fa' => 'fa fa-flickr'        ),
+			array('url' => 'https://www.instagram.com/hadriencroubois/',     'fa' => 'fa fa-instagram'     ),
 			array('url' => 'https://stackoverflow.com/users/1503898/amxx',   'fa' => 'fa fa-stack-overflow'),
 			array('url' => 'https://github.com/Amxx',                        'fa' => 'fa fa-github'        ),
 			array('url' => 'https://www.linkedin.com/in/hadriencroubois',    'fa' => 'fa fa-linkedin'      ),
