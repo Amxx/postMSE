@@ -19,9 +19,14 @@
 				'archived' => false,
 			),
 			array(
-				// 'title'    => 'Toward an autonomic approach of workflows distribution on cloud',
 				'title'    => 'D2 commission',
-				'content'  => '<p>Slides are available <a href="//shared.hadriencroubois.com/work/2017/D2commission_slides.pdf" target="_blank" class="text-%class%">here</a> (3.9Mo).</p>',
+				'biblio'   => array(
+					array(
+						'title' => 'Slides.',
+						'type'  => 'slides',
+						'link'  => array('title' => 'Pdf', 'url' => 'shared.hadriencroubois.com/work/2017/D2commission_slides.pdf'),
+					),
+				),
 				'archived' => true,
 			),
 			array(
@@ -38,11 +43,6 @@
 			array(
 				'title'    => 'OpenStack Workshop in Lyon',
 				'content'  => '<p>Meet me at the <a href="https://www.eventbrite.fr/e/billets-openstack-workshop-lyon-2016-25669207290" class="text-%class%">OpenStack Workshop</a> at ENS de Lyon (june 15, 2016).</p>',
-				'archived' => true,
-			),
-			array(
-				'title'    => 'JDD 2016',
-				'content'  => '<p>Participation to the 2016 PhD students days in Saint-Pierre-de-Bœuf (june 13~14 2016).</p>',
 				'archived' => true,
 			),
 			array(
