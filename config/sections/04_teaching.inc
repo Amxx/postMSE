@@ -78,7 +78,7 @@
 	</li>
 </ul>
 ',
-				'archived' => false,
+				'archived' => true,
 			),
 			array(
 				'title'    => '[2016-2017] Distributed systems',
@@ -121,7 +121,7 @@
 	</li>
 </ul>
 ',
-				'archived' => false,
+				'archived' => true,
 			),
 			array(
 				'title'    => '[2015-2016] Distributed systems',
