@@ -32,7 +32,8 @@
 				'icon'    => 'fingerprint',
 				'content' => '
 					<p><span class="label label-info"    style="display: inline-block; width: 100px;">PGP    </span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois.asc"        target="_blank">ACFB601FDF8A59101260CB21257827841FA70F93     </a></span></p>
-					<p><span class="label label-success" style="display: inline-block; width: 100px;">Ring ID</span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois-ringid.sig" target="_blank">ring:8d965483f569267fc38e59b8e4809e505cbc9d6f</a></span></p>'
+					<p><span class="label label-danger"  style="display: inline-block; width: 100px;">Ring ID</span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois-ringid.sig" target="_blank">ring:8d965483f569267fc38e59b8e4809e505cbc9d6f</a></span></p>
+					<p><span class="label label-success" style="display: inline-block; width: 100px;">ETH    </span><span style="display: inline-block; width: 350px;"><a href=""                                   target="_blank">0x64e77a327A0562483a5e413451B9102898617E9d   </a></span></p>'
 			),
 		),
 		'footer' => '<div id="map_contact_fr" class="map"></div>'
