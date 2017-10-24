@@ -24,7 +24,7 @@
 					array(
 						'title' => 'Slides.',
 						'type'  => 'slides',
-						'link'  => array('title' => 'Pdf', 'url' => 'shared.hadriencroubois.com/work/2017/D2commission_slides.pdf'),
+						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2017/D2commission_slides.pdf'),
 					),
 				),
 				'archived' => true,
