@@ -10,7 +10,7 @@
 				'icon'        => 'bitcoin',
 				'color'       => 'danger',
 				'date'        => '2017-present',
-				'description' => '<ul><li>Algorithm & Blockchain scientific consultant in charge of the design and evaluation of the Proof-of-Contribution algorithms for <a href="http://iex.ec/" targer="_blank" class="text-%class%">iEx.ec</a></li></ul>',
+				'description' => '<ul><li>Algorithm & Blockchain scientific consultant in charge of the design and evaluation of the Proof-of-Contribution algorithms for <a href="http://iex.ec/" targer="_blank" class="text-%class%">iExec</a></li></ul>',
 			),
 			array(
 				'title'       => 'PhD Student',
