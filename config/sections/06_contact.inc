@@ -33,7 +33,7 @@
 				'content' => '
 					<p><span class="label label-danger" style="display: inline-block; width: 100px;">PGP    </span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois.asc"        target="_blank">ACFB601FDF8A59101260CB21257827841FA70F93     </a></span></p>
 					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Ring ID</span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois-ringid.sig" target="_blank">ring:8d965483f569267fc38e59b8e4809e505cbc9d6f</a></span></p>
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">ETH    </span><span style="display: inline-block; width: 350px;"><a href=""                                   target="_blank">0xddbD6c00b29b2b09840E0e23864519cA3b5f0826   </a></span></p>'
+					<p><span class="label label-danger" style="display: inline-block; width: 100px;">ETH    </span><span style="display: inline-block; width: 350px;"><a href=""                                   target="_blank">0x7859821024E633C5dC8a4FcF86fC52e7720Ce525   </a></span></p>'
 			),
 		),
 		'footer' => '<div id="map_contact_fr" class="map"></div>'
