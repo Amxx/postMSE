@@ -7,9 +7,9 @@
 		'icon'             => 'dashboard',
 		'content'          => array(
 			array(
-				'title'    => 'Cluster 2018 (Funchal)',
+				'title'    => 'Closer 2018 (Funchal)',
 				'biblio'   => array(
-					$publications['Croubois2017'],
+					$publications['closer18'],
 					array(
 						'title' => 'Slides and paper comming soon.',
 						'type'  => 'slides',
@@ -22,7 +22,7 @@
 			array(
 				'title'    => 'PDCO @ IPDPS 2017 (Orlando)',
 				'biblio'   => array(
-					$publications['Croubois2017'],
+					$publications['PDCO17'],
 					array(
 						'title' => 'Workshop slides.',
 						'type'  => 'slides',
