@@ -4,7 +4,7 @@
 		'type'             => 'tabs',
 		'settings'         => array('class' => 'danger'),
 		'headerBackground' => 'assets/img/07-contact.jpg',
-		'icon'             => 'call',
+		'icon'             => 'forum',
 		'content'          => array(
 			array(
 				'title'   => 'Adresse',

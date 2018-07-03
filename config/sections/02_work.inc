@@ -4,8 +4,21 @@
 		'type'             => 'blocks',
 		'settings'         => array('class' => 'info', 'width' => 'col-reactive'),
 		'headerBackground' => 'assets/img/03-work.jpg',
-		'icon'             => 'build',
+		'icon'             => 'dashboard',
 		'content'          => array(
+			array(
+				'title'    => 'Cluster 2018 (Funchal)',
+				'biblio'   => array(
+					$publications['Croubois2017'],
+					array(
+						'title' => 'Slides and paper comming soon.',
+						'type'  => 'slides',
+						'link'  => array('title' => 'Paper', 'url' => 'about:blank'),
+						'link'  => array('title' => 'Slides', 'url' => 'about:blank'),
+					),
+				),
+				'archived' => false,
+			),
 			array(
 				'title'    => 'PDCO @ IPDPS 2017 (Orlando)',
 				'biblio'   => array(

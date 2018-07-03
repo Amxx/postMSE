@@ -1,34 +1,34 @@
-	<!--
-	#############################################################################
-	#                                                                           #
-	#                                N a v b a r                                #
-	#                                                                           #
-	#############################################################################
-	-->
-	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="#" onclick="postMSE.client.slideTop();">
-					<img class="avatar img-rounded img-responsive" src="assets/img/croubois.png">
-				</a>
-			</div>
-			<div class="collapse navbar-collapse" id="navigation-index">
-				<ul class="nav navbar-nav">
-				{% for section in sections %}
-					<li><a href="#{{ section.title | lower }}" class="btn scroolTo"><i class="material-icons">{{ section.icon }}</i> {{ section.title }}</a></li>
-				{% endfor %}
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-				{% for social in socials %}
-					<li><a href="{{ social.url }}" target="_blank" class="btn btn-simple compact"><i class="{{ social.fa }}"></i></a></li>
-				{% endfor %}
-				</ul>
-			</div>
+<!--
+#############################################################################
+#                                                                           #
+#                                N a v b a r                                #
+#                                                                           #
+#############################################################################
+-->
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" onclick="postMSE.client.slideTop();">
+				<img class="avatar img-rounded img-responsive" src="assets/img/croubois.png">
+			</a>
 		</div>
-	</nav>
+		<div class="collapse navbar-collapse" id="navigation-index">
+			<ul class="nav navbar-nav">
+			{% for section in sections %}
+				<li><a href="#{{ section.title | lower }}" class="btn scroolTo"><i class="material-icons">{{ section.icon }}</i> {{ section.title }}</a></li>
+			{% endfor %}
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+			{% for social in socials %}
+				<li><a href="{{ social.url }}" target="_blank" class="btn btn-simple compact"><i class="{{ social.fa }}"></i></a></li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</nav>

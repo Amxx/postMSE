@@ -76,6 +76,6 @@
 				'description' => '<ul><li><a href="http://www.lfitokyo.org/" target="_blank" class="text-%class%">Lycée Franco-Japonais de Tokyo - LFJT</a>, Tokyo, Japan.</li></ul>',
 			),
 		),
-		'footer' => '<div class="btn-group btn-group-justified" role="group"><a class="btn btn-danger btn-raised btn-lg" href="//shared.hadriencroubois.com/CrouboisHadrienEN.pdf" target="_blank">View my full resume (English)</a></div><div class="btn-group btn-group-justified" role="group"><a class="btn btn-danger btn-raised btn-lg" href="//shared.hadriencroubois.com/CrouboisHadrienFR.pdf" target="_blank">Voir mon CV complet (Francais)</a></div>',
+		'footer' => '<div class="btn-group btn-group-justified" role="group"><a class="btn btn-danger btn-raised btn-lg" href="//shared.hadriencroubois.com/CrouboisHadrienEN.pdf" target="_blank">View my full resume (English)</a></div>',
 	);
 ?>
