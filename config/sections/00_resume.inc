@@ -6,10 +6,17 @@
 		'icon'             => 'format_quote',
 		'content'          => array(
 			array(
+				'title'       => 'Research Engineer',
+				'icon'        => 'bitcoin',
+				'color'       => 'danger',
+				'date'        => '2018-present',
+				'description' => '<ul><li>Research engineer at <a href="http://iex.ec/" targer="_blank" class="text-%class%">iExec</a></li></ul>',
+			),
+			array(
 				'title'       => 'Scientific Consultant',
 				'icon'        => 'bitcoin',
 				'color'       => 'danger',
-				'date'        => '2017-present',
+				'date'        => '2017-2018',
 				'description' => '<ul><li>Algorithm & Blockchain scientific consultant in charge of the design and evaluation of the Proof-of-Contribution algorithms for <a href="http://iex.ec/" targer="_blank" class="text-%class%">iExec</a></li></ul>',
 			),
 			array(
