@@ -62,8 +62,8 @@
 					<div class="col-md-8 col-md-offset-2">
 						<div class="brand">
 							<h1>Hadrien Croubois</h1>
-							<h3>PhD student</h3>
-							<p>I am a French PhD student working in the <a href="http://avalon.ens-lyon.fr/" target="_blank" class="text-info">Avalon</a> team of the <a href="http://www.ens-lyon.fr/LIP/" target="_blank" class="text-info">LIP</a> at the <a href="http://www.ens-lyon.eu" target="_blank" class="text-info">École Normale Supérieure de Lyon</a>. I specialize in  parallel processing, distributed systems, and workflow distribution. I also have some background in resiliency, compilation and image rendering. My PhD advisor is <a href="http://graal.ens-lyon.fr/~ecaron/" target="_blank" class="text-info">Eddy Caron</a></p>
+							<h3>PhD | Research Scientist</h3>
+							<p>French PhD in computer science from the <a href="http://www.ens-lyon.eu" target="_blank" class="text-info">École Normale Supérieure de Lyon</a>.<br/>Blockchain, Cloud and distributed systems expert.</p>
 						</div>
 					</div>
 				</div>
@@ -894,25 +894,22 @@ Tous les codes sources sont disponible sur GitHub :<br/>
 	<div class="content">
 		<div class="tab-content text-center">
 							<div class="tab-pane active" id="adresse">
-					<strong>Hadrien Croubois</strong><br/>15 rue Delandine<br/>69002, Lyon, France
+					15 rue Delandine<br/>69002, Lyon, France
 				</div>
 							<div class="tab-pane " id="phone">
 					
 					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Mobile</span> (+33) 6 24 23 75 53</p>
 					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Home  </span> (+33) 4 72 04 31 11</p>
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Office</span> (+33) 4 26 23 39 40</p>
 				</div>
 							<div class="tab-pane " id="email">
 					
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Work </span><span style="display: inline-block; width: 200px;">hadrien.croubois@ens-lyon.fr</span></p>
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Iexec</span><span style="display: inline-block; width: 200px;">hadrien.croubois@iex.ec</span></p>
+					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Work </span><span style="display: inline-block; width: 200px;">hadrien.croubois@iex.ec</span></p>
 					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Perso</span><span style="display: inline-block; width: 200px;">hadrien.croubois@gmail.com</span></p>
 				</div>
 							<div class="tab-pane " id="privacy">
 					
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">PGP    </span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois.asc"        target="_blank">ACFB601FDF8A59101260CB21257827841FA70F93     </a></span></p>
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Ring ID</span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois-ringid.sig" target="_blank">ring:8d965483f569267fc38e59b8e4809e505cbc9d6f</a></span></p>
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">ETH    </span><span style="display: inline-block; width: 350px;"><a href=""                                   target="_blank">0x7859821024E633C5dC8a4FcF86fC52e7720Ce525   </a></span></p>
+					<p><span class="label label-danger" style="display: inline-block; width: 100px;">PGP    </span><span style="display: inline-block; width: 350px;"><a href="privacy/hadriencroubois.asc"                      target="_blank">ACFB601FDF8A59101260CB21257827841FA70F93     </a></span></p>
+					<p><span class="label label-danger" style="display: inline-block; width: 100px;">ETH/ENS</span><span style="display: inline-block; width: 350px;"><a href="https://etherscan.io/address/hadriencroubois.eth" target="_blank">hadriencroubois.eth                          </a></span></p>
 				</div>
 					</div>
 	</div>
@@ -993,10 +990,11 @@ Tous les codes sources sont disponible sur GitHub :<br/>
 			$(window).on("scroll", materialKitDemo.checkScrollForParallax);
 		}
 
-		var map_contact_fr = L.map("map_contact_fr").setView([45.742997, 4.823842], 14);
+		var map_contact_fr = L.map("map_contact_fr").setView([45.742997, 4.838842], 13);
 		map_contact_fr.addLayer(new L.TileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {minZoom: 6, maxZoom: 18, attribution: ""}));
-		L.marker([45.7298016, 4.8271596]).bindPopup("ENS de Lyon").addTo(map_contact_fr);
-		L.marker([45.7455890, 4.8260870]).bindPopup("Home").addTo(map_contact_fr);
+		L.marker([45.729801, 4.827159]).bindPopup("ENS de Lyon").addTo(map_contact_fr);
+		L.marker([45.746378, 4.827057]).bindPopup("Home").addTo(map_contact_fr);
+		L.marker([45.724954, 4.874912]).bindPopup("Work").addTo(map_contact_fr);
 
 		var map_work_argonne = L.map('map_work_argonne').setView([41.713763, -87.982914], 12);
 		map_work_argonne.addLayer(new L.TileLayer('https://b.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 6, maxZoom: 18, attribution: ''}));
@@ -1009,4 +1007,5 @@ Tous les codes sources sont disponible sur GitHub :<br/>
 			return false;
 		});
 	});
-</script></html>
+</script>
+</html>
