@@ -40,10 +40,11 @@
 			$(window).on("scroll", materialKitDemo.checkScrollForParallax);
 		}
 
-		var map_contact_fr = L.map("map_contact_fr").setView([45.742997, 4.823842], 14);
+		var map_contact_fr = L.map("map_contact_fr").setView([45.742997, 4.838842], 13);
 		map_contact_fr.addLayer(new L.TileLayer("https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", {minZoom: 6, maxZoom: 18, attribution: ""}));
-		L.marker([45.7298016, 4.8271596]).bindPopup("ENS de Lyon").addTo(map_contact_fr);
-		L.marker([45.7455890, 4.8260870]).bindPopup("Home").addTo(map_contact_fr);
+		L.marker([45.729801, 4.827159]).bindPopup("ENS de Lyon").addTo(map_contact_fr);
+		L.marker([45.746378, 4.827057]).bindPopup("Home").addTo(map_contact_fr);
+		L.marker([45.724954, 4.874912]).bindPopup("Work").addTo(map_contact_fr);
 
 		var map_work_argonne = L.map('map_work_argonne').setView([41.713763, -87.982914], 12);
 		map_work_argonne.addLayer(new L.TileLayer('https://b.tile.openstreetmap.org/{z}/{x}/{y}.png', {minZoom: 6, maxZoom: 18, attribution: ''}));

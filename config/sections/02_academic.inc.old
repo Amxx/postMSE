@@ -1,6 +1,6 @@
 <?php
-	$sections['work'] = array(
-		'title'            => 'Work',
+	$sections['academic'] = array(
+		'title'            => 'Academic',
 		'type'             => 'blocks',
 		'settings'         => array('class' => 'info', 'width' => 'col-reactive'),
 		'headerBackground' => 'assets/img/03-work.jpg',
@@ -11,13 +11,13 @@
 				'biblio'   => array(
 					$publications['closer18'],
 					array(
-						'title' => 'Slides and paper comming soon.',
+						'title' => 'Slides.',
 						'type'  => 'slides',
 						'link'  => array('title' => 'Paper', 'url' => 'about:blank'),
-						'link'  => array('title' => 'Slides', 'url' => 'about:blank'),
+						'link'  => array('title' => 'Pdf', 'url' => 'about:blank'),
 					),
 				),
-				'archived' => false,
+				'archived' => true,
 			),
 			array(
 				'title'    => 'PDCO @ IPDPS 2017 (Orlando)',
@@ -29,7 +29,7 @@
 						'link'  => array('title' => 'Pdf', 'url' => '//shared.hadriencroubois.com/work/2017/PDCO_slides.pdf'),
 					),
 				),
-				'archived' => false,
+				'archived' => true,
 			),
 			array(
 				'title'    => 'D2 commission',

@@ -4,10 +4,10 @@
 
 	$data = array(
 		'title'            => 'Hadrien Croubois',
-		'subtitle'         => 'PhD student',
+		'subtitle'         => 'PhD | Research Scientist',
 		'icon'             => 'assets/img/croubois.png',
 		'headerBackground' => 'assets/img/background.jpg',
-		'description'      => 'I am a French PhD student working in the <a href="http://avalon.ens-lyon.fr/" target="_blank" class="text-info">Avalon</a> team of the <a href="http://www.ens-lyon.fr/LIP/" target="_blank" class="text-info">LIP</a> at the <a href="http://www.ens-lyon.eu" target="_blank" class="text-info">École Normale Supérieure de Lyon</a>. I specialize in  parallel processing, distributed systems, and workflow distribution. I also have some background in resiliency, compilation and image rendering. My PhD advisor is <a href="http://graal.ens-lyon.fr/~ecaron/" target="_blank" class="text-info">Eddy Caron</a>',
+		'description'      => 'French PhD in computer science from the <a href="http://www.ens-lyon.eu" target="_blank" class="text-info">École Normale Supérieure de Lyon</a>.<br/>Blockchain, Cloud and distributed systems expert.',
 		'sections'         => $sections,
 		'socials' => array(
 			array('url' => 'https://www.facebook.com/hcroubois',             'fa' => 'fa fa-facebook'      ),
