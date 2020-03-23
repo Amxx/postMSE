@@ -1,15 +1,14 @@
 <ul class="timeline">
 	{% for entry in section.content %}
-		{% set class = entry.color %}
-		<li {% if loop.index is divisible by(2) %}class="timeline-inverted"{% endif %}>
-			<div class="timeline-badge {{ class }}"><i class="glyphicon glyphicon-{{ entry.icon }}"></i></div>
+		<li {% if loop.index is divisible by(2) %} class="timeline-inverted" {% endif %}>
+			<div class="timeline-badge {{ ' ' ~ entry.color }} "><i class="glyphicon glyphicon-{{ entry.icon }}"></i></div>
 			<div class="timeline-panel">
 				<div class="timeline-heading">
 					<h4 class="timeline-title">{{ entry.title }}</h4>
 					<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> {{ entry.date }}</small></p>
 				</div>
 				<div class="timeline-body">
-					{{ entry.description | replace({'%class%': class }) | raw }}
+					{{ entry.description | replace({'%class%': entry.color }) | raw }}
 				</div>
 			</div>
 		</li>

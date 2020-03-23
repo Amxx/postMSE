@@ -6,18 +6,18 @@
 		'headerBackground' => 'assets/img/07-contact.jpg',
 		'icon'             => 'forum',
 		'content'          => array(
-			array(
-				'title'   => 'Adresse',
-				'icon'    => 'home',
-				'content' => '15 rue Delandine<br/>69002, Lyon, France'
-			),
-			array(
-				'title'   => 'Phone',
-				'icon'    => 'call',
-				'content' => '
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Mobile</span> (+33) 6 24 23 75 53</p>
-					<p><span class="label label-danger" style="display: inline-block; width: 100px;">Home  </span> (+33) 4 72 04 31 11</p>'
-			),
+			// array(
+			// 	'title'   => 'Adresse',
+			// 	'icon'    => 'home',
+			// 	'content' => '15 rue Delandine<br/>69002, Lyon, France'
+			// ),
+			// array(
+			// 	'title'   => 'Phone',
+			// 	'icon'    => 'call',
+			// 	'content' => '
+			// 		<p><span class="label label-danger" style="display: inline-block; width: 100px;">Mobile</span> (+33) 6 24 23 75 53</p>
+			// 		<p><span class="label label-danger" style="display: inline-block; width: 100px;">Home  </span> (+33) 4 72 04 31 11</p>'
+			// ),
 			array(
 				'title'   => 'Email',
 				'icon'    => 'chat',
