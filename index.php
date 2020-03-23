@@ -1,12 +1,12 @@
 <?php
 
-// require_once 'assets/libs/phpfastcache/phpfastcache.php';
+require_once 'assets/libs/phpfastcache/phpfastcache.php';
 
-// $cache = phpFastCache();
-// $hash  = md5($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].$_SERVER['QUERY_STRING']);
-// $html  = __c('files')->get($hash);
+$cache = phpFastCache();
+$hash  = md5($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].$_SERVER['QUERY_STRING']);
+$html  = __c('files')->get($hash);
 
-// if ($html == null)
+if ($html == null)
 {
 	require_once 'config/data.inc';
 	require_once 'assets/libs/Twig/Autoloader.php';
@@ -17,8 +17,7 @@
 	$template = $twig->loadTemplate('index.twig');
 	$html     = $template->render($data);
 
-	file_put_contents("ipfs/index.html", $html);
-	// __c("files")->set($hash, $html, 600);
+	__c("files")->set($hash, $html, 600);
 }
 
 echo $html;
