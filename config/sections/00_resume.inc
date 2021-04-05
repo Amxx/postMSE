@@ -6,10 +6,20 @@
 		'icon'             => 'format_quote',
 		'content'          => array(
 			array(
+				'title'       => 'Smart contract / Blockchain Engineer',
+				'icon'        => 'bitcoin',
+				'color'       => 'danger',
+				'date'        => '2021-present',
+				'description' =>
+'<ul>
+	<li>Smart contract / Blockchain engineer at <a href="https://openzeppelin.com/" target="_blank" class="text-%class%">OpenZeppelin</a></li>
+</ul>',
+			),
+			array(
 				'title'       => 'Research Engineer',
 				'icon'        => 'bitcoin',
 				'color'       => 'danger',
-				'date'        => '2018-present',
+				'date'        => '2018-2020',
 				'description' =>
 '<ul>
 	<li>Research engineer at <a href="http://iex.ec/" target="_blank" class="text-%class%">iExec</a></li>
@@ -17,7 +27,9 @@
 		<ul>
 			<li><a href="https://www.youtube.com/watch?v=8w4zRtkfKT0" target="_blank" class="text-%class%">The Magic of Ethereum Addresses (Devcon5)</a></li>
 			<li><a href="https://www.youtube.com/watch?v=Cfjyu8oAzh4" target="_blank" class="text-%class%">Upgradeability of self-governed contract (Devcon5)</a></li>
-			<li><a href="https://www.youtube.com/watch?v=MYrwnKWfrL0" target="_blank" class="text-%class%">Collateralizing NFTs (NFTNYC Panel)</a></li>
+			<li><a href="https://www.youtube.com/watch?v=X5L4fQbUxsA" target="_blank" class="text-%class%">MetaMask MetaTransaction Panel</a></li>
+			<li><a href="https://www.youtube.com/watch?v=pLXdo2sUIKM" target="_blank" class="text-%class%">Going Off-Chain: Power Your Application with a Decentralized & Distributed Network (EthDenver 2020)</a></li>
+			<li><a href="https://www.youtube.com/watch?v=MYrwnKWfrL0" target="_blank" class="text-%class%">Collateralizing NFTs (NFTNYC 2020)</a></li>
 		</ul>
 	</li>
 	<li>Technical articles on medium:
