@@ -42,6 +42,8 @@
 			<li><a href="https://medium.com/iex-ec/poco-series-6-smart-contract-upgradeability-and-governance-68d2cdecd120"                         target="_blank" class="text-%class%">Smart Contract Upgradeability and Governance</a></li>
 			<li><a href="https://medium.com/iex-ec/poco-series-7-enslogin-1013e7884ccb"                                                             target="_blank" class="text-%class%">ENSLogin</a></li>
 			<li><a href="https://medium.com/iex-ec/poco-series-8-future-proofing-iexec-smart-contract-interoperability-and-modularity-37a3d3613f11" target="_blank" class="text-%class%">Future-proofing iExec - Smart Contract Interoperability and Modularity</a></li>
+			<li><a href="https://medium.com/iex-ec/poco-series-9-indexing-smart-contracts-activity-its-harder-than-you-think-916c8110138a"          target="_blank" class="text-%class%">Indexing smart contract activity. It’s harder than you think!</a></li>
+			<li><a href="https://medium.com/iex-ec/poco-series-10-moving-towards-layer-2-a-solidity-developers-view-6cd422194d76"                   target="_blank" class="text-%class%">Moving towards layer 2, a Solidity Developer’s View</a></li>
 		</ul>
 	</li>
 </ul>',
